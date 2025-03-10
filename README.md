@@ -22,10 +22,10 @@ pip install requests rich
 ## Usage
 Run the script and specify the target website:
 ```sh
-python adm_finder.py -u example.com
+python adm_finder.py
 ```
 
-### Options:
+### Additional options:
 - `-u, --url`: Target URL to scan.
 - `-k, --keyword`: Keyword to match in responses.
 - `-m, --method`: Request method (default: GET).
